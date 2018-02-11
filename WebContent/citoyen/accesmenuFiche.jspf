@@ -1,0 +1,27 @@
+<%@ page import="java.util.*"%>
+<table  class="Casebleu" style="border: 0px; margin:0 ; padding:0px; width:800;" >
+	<tr> 
+	 <td>
+	  <H1 style= "font-size:42px;">   Mon compte Citoyen  </H1>  
+	 <td>
+     </tr> <tr> 
+	 <td>
+	   <table class="Casebleu" style="border: 0px; margin:0 ; padding:0px;width:800px" >
+	     <tr>
+	      <td>
+		   <a href="<%=request.getContextPath()+"/citoyen/deposerUneDemande.jsp"%>"><button name ="deposer" type="button" style="width: 150px"> Déposer une demande</button> </a>  
+          </td> <td>
+		    <a href="<%=request.getContextPath()+"/citoyen/suivreMesDemandes.jsp"%>"><button name ="suivre" type="button"style="width: 150px">  Suivre mes demandes </button> </a>
+          </td> <td>
+		   <a href="<%=request.getContextPath()+"/citoyen/monPorteDocuments.jsp"%>"><button name ="lister" type="button" style="width: 150px"> Mon porte documents</button> </a>
+        </td><td>
+		   <a href="<%=request.getContextPath()+"/citoyen/mesInformationsPersonnelles.jsp"%>"><button name ="info" type="button" style="width: 200px"> Mes informations personnelles</button></a> 
+          </td><td>
+         <a href="<%=request.getContextPath()+"/citoyen/deconnection.jsp"%>"><button  name="choix" type="button"  style="width: 100px"> Se déconnecter </button> </a>
+	   </td> 
+	  </tr> 
+    </table>
+    </td>
+	</tr>
+</table>
+
